@@ -83,28 +83,7 @@
       ]
     }
   ],
-  "users": [
-    {
-      "firstName": "nong",
-      "lastName": "toan",
-      "email": "nongquoctoan.dev@gmail.com",
-      "password": "123456",
-      "sex": "Nam",
-      "dateOfBirth": "9/16/2022",
-      "createdAt": 1663264005161,
-      "id": 1
-    },
-    {
-      "email": "thaokoy22111996@gmail.com",
-      "password": "$2a$10$zzCYzRWPYhW7pue623esy.HO32BYScyg3siatlSiXgJR5unRnfocq",
-      "firstName": "pham",
-      "lastName": "thao",
-      "sex": "Nữ",
-      "dateOfBirth": "9/16/2022",
-      "createdAt": 1663264600146,
-      "id": 2
-    }
-  ],
+  "users": [],
   "toursUserBooked": [
     {
       "idTour": "13",
