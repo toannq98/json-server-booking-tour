@@ -83,42 +83,73 @@
       ]
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "email": "nongquoctoan.dev@gmail.com",
+      "password": "$2a$10$B5KNadv768eLCWCqejcpfeuUQhDGvVVrhJAvbKTKpLxK9HYuXMLJG",
+      "firstName": "nong",
+      "lastName": "toan",
+      "sex": "Nam",
+      "dateOfBirth": "12/19/1995",
+      "createdAt": 1671418235071,
+      "id": 1
+    },
+    {
+      "email": "demo@demo.com",
+      "password": "$2a$10$LAviFR/DIPfq5lJsEaXgfeJBCfXTmHpL7.Ha1rRaptjCaLUpbd.le",
+      "firstName": "demo",
+      "lastName": "demo",
+      "sex": "Nam",
+      "dateOfBirth": "12/19/2022",
+      "createdAt": 1671419366766,
+      "id": 2
+    },
+    {
+      "email": "demo1@demo.com",
+      "password": "$2a$10$f3oBA/8YQLbzg18NODavMuZufO4Mcb5FYL3REsAbNCYGQ8dNcf84u",
+      "firstName": "nong",
+      "lastName": "toan",
+      "sex": "Nam",
+      "dateOfBirth": "12/19/2022",
+      "createdAt": 1671419548171,
+      "id": 3
+    }
+  ],
   "adminUsers": [
     {
       "id": "1",
       "email": "demo@demo.com",
       "password": "Demo6789@"
     }
-  ], 
-  "toursUserBooked": [],
-  "tours": [
+  ],
+  "toursUserBooked": [
     {
-      "id": "1",
-      "idCate": "1_1",
-      "time": "3N2Đ",
+      "idTour": "1",
+      "firstName": "demo",
+      "lastName": "demo",
+      "email": "demo@demo.com",
+      "phoneNumber": "457 657 1237",
       "tourName": "Côn Đảo vẻ đẹp tiềm ẩn 3N2Đ",
-      "tourSchedule": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus turpis et condimentum congue. Pellentesque vulputate libero vitae convallis accumsan. Nam iaculis consequat augue, id dapibus mi blandit sit amet. Quisque erat felis, molestie ac metus vitae, blandit volutpat diam. Sed quis arcu et dolor pretium tristique ut vel ipsum. Sed nec massa massa. Praesent lacinia diam quis fermentum volutpat. Praesent at purus a justo dapibus commodo. Duis sit amet bibendum ante. Ut sed arcu consequat, viverra justo in, porta velit. In vitae augue nec nulla molestie auctor. Vivamus tempor egestas mauris, in euismod ex hendrerit id. In consequat venenatis odio quis facilisis.",
-      "description": "Nullam quis lacus a neque dignissim fringilla vel vel dolor. Ut maximus commodo est, maximus pulvinar diam tempor dictum. Etiam efficitur egestas leo molestie malesuada. Phasellus mattis nulla eu finibus elementum. Donec dapibus turpis eget risus interdum sagittis. Ut ac nulla sit amet nunc lobortis faucibus. Praesent commodo velit nunc, et ultrices nisi ullamcorper sit amet. Aliquam varius lorem massa, eget posuere diam pretium vitae. Vivamus nec ultricies mauris, sit amet posuere nulla. Donec ullamcorper tempus mi, a porttitor tortor commodo in. Proin ultrices dictum erat, sit amet scelerisque odio tempor quis. Mauris vulputate, libero et consectetur commodo, sem sapien varius tortor, ut efficitur risus felis nec libero. Nullam est nunc, tempus at purus vel, ultrices venenatis dui. Donec id consectetur quam. Curabitur sodales ornare sapien. Praesent blandit quis tortor nec accumsan.",
-      "departureFrom": "TP.HCM",
-      "location": {
-        "city": "Bà Rịa - Vũng Tàu",
-        "locationDetail": "Côn Đảo, Bà Rịa - Vũng Tàu, Việt Nam"
+      "time": "2022-12-20",
+      "tickets": {
+        "adult": {
+          "qty": 1,
+          "price": 4340000
+        },
+        "child": {
+          "qty": 1,
+          "price": 3472000
+        },
+        "infant": {
+          "qty": 1,
+          "price": 0
+        }
       },
-      "images": [
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_1.jpg?alt=media&token=e6fd0236-866d-49a6-a4f4-9fe3921aa280",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_2.jpg?alt=media&token=2d446ed1-7f8c-4676-9c71-d58ac500a190",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_3.jpg?alt=media&token=7b23aeaf-0b75-485c-92e1-658f24e95a42",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_4.jpg?alt=media&token=4fd72bab-bef6-4d7b-87c1-983c029c0da1",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_5.jpg?alt=media&token=3d06e1a7-4fc3-468c-804b-5459d581fed8",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_6.jpg?alt=media&token=dc73c3ef-ff0c-4b52-8767-4ef2bc69d64f",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_7.jpg?alt=media&token=acd231fc-01f1-4e0f-9bc8-cf9bed75215f",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_8.jpg?alt=media&token=b8a2e982-5597-40cb-b9fe-7bd106b9e252",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_9.jpg?alt=media&token=f9ad43d8-76a1-4dc1-aeb1-34f5d6edfd1c",
-        "https://firebasestorage.googleapis.com/v0/b/booktour-4cbc2.appspot.com/o/1%2Ftour_1_10.jpg?alt=media&token=feb79225-4daf-431b-a3ad-0601287becc5"
-      ],
-      "price": 4340000
-    },
+      "createdAt": 1671422121109,
+      "id": 1
+    }
+  ],
+  "tours": [
     {
       "id": "2",
       "idCate": "1_1",
