@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "/main.js"
+        "dest": "/api/db.json"
       }
     ]
   }
